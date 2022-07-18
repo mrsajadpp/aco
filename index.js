@@ -4,9 +4,9 @@ const token = 'OTc4MTMzNjgwMjU2MDYxNDgx.GdlOfB.sxzji9BAMeoKNXNuotXwdT8L5zlBYxUfe
 const fs = require('fs');
 const path = require('path');
 const request = require('request');
-var userData = require("./user/userData.js");
-var userAdd = require("./user/userAdd.js");
-var userRe = require("./user/userRe.js");
+var userData = require("./users/userData.js");
+var userAdd = require("./users/userAdd.js");
+var userRe = require("./users/userRe.js");
 var prefix = '!'; 
 client.commands = new discord.Collection();
 var commands = fs.readdirSync("./commands").filter(file => file.endsWith('.js'));
