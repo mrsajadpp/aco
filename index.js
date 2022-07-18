@@ -1,6 +1,6 @@
 const discord = require('discord.js');
 const client = new discord.Client({ intents: ["GUILDS","GUILD_MESSAGES","GUILD_MESSAGE_REACTIONS","GUILD_MESSAGE_TYPING","DIRECT_MESSAGES","DIRECT_MESSAGE_REACTIONS","DIRECT_MESSAGE_TYPING"], partials: ["CHANNEL"] });
-const token = 'OTc4MTMzNjgwMjU2MDYxNDgx.GdxMe2.ICxDXJVUp4IrsyV5qVEfdWR_kJfnyk_AWbVQWc';
+const token = 'OTc4MTMzNjgwMjU2MDYxNDgx.GdlOfB.sxzji9BAMeoKNXNuotXwdT8L5zlBYxUfeNTKwI';
 const fs = require('fs');
 const path = require('path');
 const request = require('request');
