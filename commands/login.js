@@ -5,7 +5,7 @@ module.exports.run = (client, message, args, userData, userAdd, userRe, number) 
   const server = message.channel.id;
   const channel = client.channels.cache.get('997489495115046912');
   //console.log(typeof id);
-  if (server == '997496232396206110') {
+  if (server == process.env.CHID) {
     if (userData[number].id == id) {
        message.author.send('You logged!');
        channel.send('Joined a existing user!');
