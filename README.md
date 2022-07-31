@@ -18,3 +18,4 @@ CHID=[your login channel id]
 PORT=[your server running port]
 ```
 You using replit add this on your secret.
+Or remove the process.env.TOKEN and more env calling variable and remake the variable and enter your values.
