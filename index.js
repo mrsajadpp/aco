@@ -7,6 +7,7 @@ const request = require('request');
 var userData = require("./users/userData.js");
 var userAdd = require("./users/userAdd.js");
 var userRe = require("./users/userRe.js");
+var listen = require("./server.js");
 var prefix = '!'; 
 client.commands = new discord.Collection();
 var commands = fs.readdirSync("./commands").filter(file => file.endsWith('.js'));
@@ -20,6 +21,7 @@ client.on('ready', () => {
   client.user.setActivity("data", {
         type: "WATCHING"
   });
+  listen();
 });
 client.on('messageCreate', message => {
   client.user.setActivity("data", {
