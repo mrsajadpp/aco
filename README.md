@@ -11,4 +11,10 @@ Next 3rd step type or paste this line your shell
 ```md
 npm start
 ```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrsajadpp/aco)
+And then add .env and paste this on your .env
+```md
+TOKEN=[your bot secret token]
+CHID=[your login channel id]
+PORT=[your server running port]
+```
+You using replit add this on your secret.
