@@ -22,3 +22,4 @@ Or remove the process.env.TOKEN and more env calling variable and remake the var
 # You face a issue?
 Contact our team on discord or email.
 Discord : <a href="https://discord.gg/quMaYVZSCV">https://discord.gg/quMaYVZSCV</a>
+Email : <a href="mailto:dev.fivo@gmail.com">dev.fivo@gmail.com</a>
